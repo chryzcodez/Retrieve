@@ -24,6 +24,7 @@ This function and primary aim of this repo is to retrieve data from a json(data)
   - **"0"**: is represented as here as the post of a student
   
 - ## rosterdb.py
-   The other python file 'rosterdb.py' is python code with a bit of sqlite. This code is to retrieve your data and store it into an sqlite database for later use.
-   I provided a json data file, if you would like to test and tweak around the codes.
-   The python codes above are to be modified based on the json data and what you need from it!
+   The other python file `rosterdb.py` is python code with a bit of sqlite. This code is to retrieve your data and store it into an sqlite database for later use. To use this you need to download an sqlite browser [here](https://sqlitebrowser.org/dl/).
+   
+- ## rosters.py
+This is same as the the `rosterdb.py` python file except from the sqlite database which this code does not have. You can simply run it on your terminal and get your data without saving any pich of it.
